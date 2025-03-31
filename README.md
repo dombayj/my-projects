@@ -1,2 +1,2 @@
-# my-projects
+# my-project for transferring your followers list in instagram by filtering the ones above 1000 followers into a sql database and unfollow them after that on a second instagram account follow them back that would normally take long time with human hand but it will take far more less time with code
 it is my first python project including python and webscraping therefore it built poorly but works with some changes in code like database names and instamgram password username 
