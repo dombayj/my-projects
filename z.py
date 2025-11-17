@@ -1,14 +1,14 @@
 import pandas as pd
 import mysql.connector
 from mysql.connector import Error
-
+password =""
 def get_filtered_urls():
     try:
         # MySQL database connection configuration
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="11osman11",
+            password=password,
             database="instagramurl"
             )
         
@@ -51,4 +51,5 @@ result_df = get_filtered_urls()
 # Save to CSV if needed
 if result_df is not None:
     result_df.to_csv('filtered_urls.csv', index=False)
+
     print("Results saved to filtered_urls.csv")
